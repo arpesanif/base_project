@@ -1,7 +1,9 @@
-# coding=utf-8
+﻿# coding=utf-8
 from django.db import models
 import datetime
 from stdimage import *
+
+#modifica1
 
 testo_slug = 'Questo è il nome che va nella URL: lascia quello proposto di default.'
 
