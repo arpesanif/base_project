@@ -1,3 +1,4 @@
+
 from django.conf.urls.defaults import *
 from django.views.generic import TemplateView, ListView, DetailView
 from allestimentiportanuovaapp.models import *
@@ -17,4 +18,13 @@ urlpatterns = patterns('',
 	url(r'^carica_progetti/$', ListView.as_view(template_name='carica_progetti.html', queryset=Progetto.objects.filter(attivo=True)[10:], context_object_name='progetti'), name='carica_progetti'),
 
 )
+
+
+
+modifica1
+
+
+modifica2
+
+modifica 3
 
